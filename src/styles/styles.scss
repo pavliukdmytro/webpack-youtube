@@ -1,4 +1,9 @@
+@import "./test/test";
+@font-face {
+	font-family: 'poppin';
+	src: url("../fonts/poppin.woff2");
+}
 body {
 	background-color: aqua;
+	font-family: 'poppin';
 }
-@import "./test/test";
