@@ -8,5 +8,16 @@ module.exports = merge(common, {
 		hot: true,
 		open: true
 	},
-	devtool: 'eval'
+	devtool: 'eval',
+	module: {
+		rules: [
+			{
+			test: /\.css$/,
+				use: [
+					'style-loader',
+					'css-loader',
+				],
+			},
+		],
+	},
 });

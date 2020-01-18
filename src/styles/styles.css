@@ -1,0 +1,9 @@
+body{
+	background-color: aliceblue;
+}
+.container {
+	width: 200px;
+	height: 200px;
+	background-image: url("../images/javascript.png");
+	background-size: cover;
+}
